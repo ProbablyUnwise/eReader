@@ -554,8 +554,16 @@ video {
   display: table;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .transform {
@@ -655,6 +663,11 @@ video {
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
